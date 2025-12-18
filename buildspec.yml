@@ -21,7 +21,7 @@ phases:
       - cd ../../
 
       - echo "Build frontend"
-      - cd frontend
+      - cd frontend/src
       - npm install
       - npm run build
-      - cd ..
+      - cd ../../
