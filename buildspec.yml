@@ -27,6 +27,7 @@ phases:
       - cd ../../
 
 artifacts:
+  base-directory: frontend/src/build 
   files:
-    - backend/demo/build/libs/*.jar
-    - frontend/src/build/**/*
+    - '**/*'                           
+    - ../../backend/demo/build/libs/*.jar
