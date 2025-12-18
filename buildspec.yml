@@ -25,3 +25,8 @@ phases:
       - npm install
       - npm run build
       - cd ../../
+
+artifacts:
+  files:
+    - backend/demo/build/libs/*.jar
+    - frontend/src/build/**/*
